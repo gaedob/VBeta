@@ -10,4 +10,12 @@
         android:name="com.teamtalento.housyappbeta.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/activityDetailsHouse"
+        android:name="com.teamtalento.housyappbeta.ui.main.ActivityDetailsHouse"
+        android:label="activity_details_house"
+        tools:layout="@layout/activity_details_house" />
+    <action
+        android:id="@+id/action_global_activityDetailsHouse"
+        app:destination="@id/activityDetailsHouse" />
 </navigation>
